@@ -6,7 +6,7 @@ body{
     display: flex; justify-content: left;
     margin-left: 100px;
     align-items: center;min-height: 100vh;
-    background-image: url(money3.jpg);
+    background-image: url(bgimg.jpg);
     background-size:cover;
     color: white;
 }

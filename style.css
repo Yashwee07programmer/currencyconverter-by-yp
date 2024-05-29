@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex; justify-content: left;
+    margin-left: 100px;
+    align-items: center;min-height: 100vh;
+    background-image: url(money3.jpg);
+    background-size:cover;
+    color: white;
+}
+p{font-size: 18px;}
+form select,button,input{ width:100%;
+     border-radius: 0.75rem;margin:0.5rem;border: 2px solid cyan;}
+input{padding: 0.3rem; font-size: 1rem;
+    }  
+.dropdown{display: flex;justify-content: space-between;
+            align-items: center;margin-top: 1.5rem;}   
+i{font-size: 1.5rem; margin:1rem;}
+img{width: 2.5rem;}
+.selectcontainer{
+    display: flex;justify-content: center;
+    align-items: center;border-radius: 0.5rem;
+    border: 1px solid cyan;
+}
+.selectcontainer select{
+    font-size: 1rem;width: auto;
+}
+.msg{
+    margin: 2rem 0 1rem 0;
+    color: cyan;
+    font-size: 1.20rem;
+}
+button{
+    height: 2rem; font-size: 1rem;
+    cursor: pointer;font-size: 17px;
+}
+button:hover{
+    background-color: cyan;
+    color: rgb(160, 29, 29);
+    border: 2px solid rgb(160, 29, 29); 
+}
